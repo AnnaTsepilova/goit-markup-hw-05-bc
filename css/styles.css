@@ -37,6 +37,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+
 }
 
 .logo-header {
@@ -91,6 +92,8 @@ body {
     letter-spacing: 0.02em;
 
     transition: color 250ms var(--cubic);
+
+    outline: transparent;
 }
 
 .site-nav .link:hover,
@@ -205,6 +208,8 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+
+    outline: transparent;
     
 }
 
@@ -433,6 +438,8 @@ body {
     color: var(--icon-social);
 
     transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
+
+    outline: transparent;
 }
 
 .social-icon {
@@ -470,6 +477,8 @@ body {
     color: var(--icon-social);
 
     transition: border-color 250ms var(--cubic), color 250ms var(--cubic);
+
+    outline: transparent;
     
 }
 
@@ -633,6 +642,8 @@ body {
     background-color: var(--icon-footer-social-bgc);
 
     transition: background-color 250ms var(--cubic);
+
+    outline: transparent;
 }
 
 .footer-social-icon {
@@ -753,6 +764,7 @@ body {
     flex-direction:column;
 
     text-decoration: none;
+    outline: transparent;
 
 }
 
